@@ -1,5 +1,5 @@
 {
-  "name": "axb-lint",
+  "name": "lint-lf",
   "version": "0.0.1",
   "main": "bin/index.js",
   "files": [
@@ -7,7 +7,7 @@
     "lib"
   ],
   "bin": {
-    "axblint": "bin/index.js"
+    "config": "bin/index.js"
   },
   "scripts": {
     "format": "prettier --write ."
