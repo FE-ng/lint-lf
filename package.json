@@ -1,7 +1,15 @@
 {
   "name": "lflint",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "bin/index.js",
+  "keywords": [
+    "lint-cli",
+    "eslint",
+    "stylelint",
+    "commitlint",
+    "husky",
+    "prettier"
+  ],
   "files": [
     "bin",
     "lib"
