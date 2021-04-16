@@ -1,6 +1,6 @@
 {
   "name": "lflint",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "bin/index.js",
   "keywords": [
     "lint-cli",
@@ -8,7 +8,8 @@
     "stylelint",
     "commitlint",
     "husky",
-    "prettier"
+    "prettier",
+    "lint-staged"
   ],
   "files": [
     "bin",
@@ -18,7 +19,8 @@
     "config": "bin/index.js"
   },
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "author": {
     "name": "lf",
@@ -36,28 +38,6 @@
     "inquirer": "^7.3.3"
   },
   "homepage": "https://github.com/224436504/lint-lf#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint --config .commitlintrc.js -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-customizable"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,tsx,js}": [
-      "eslint --config .eslintrc.js"
-    ],
-    "*.{css,less,scss}": [
-      "stylelint --config .stylelintrc.js"
-    ],
-    "*.{ts,tsx,js,json,html,yml,css,less,scss,md}": [
-      "prettier --write"
-    ]
-  },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
@@ -85,5 +65,27 @@
     "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
     "stylelint-order": "^4.1.0",
     "typescript": "^4.2.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint --config .commitlintrc.js -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": [
+      "eslint --config .eslintrc.js"
+    ],
+    "*.{css,less,scss}": [
+      "stylelint --config .stylelintrc.js"
+    ],
+    "*.{ts,tsx,js,json,html,yml,css,less,scss,md}": [
+      "prettier --write"
+    ]
   }
 }
