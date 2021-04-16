@@ -9,4 +9,5 @@
 - **config:** 修改默认配置 增加自动生成文件 ([3dfbe71](https://github.com/224436504/lint-lf/commit/3dfbe711dfbd5900fcf4c360d91e4702bd0b7203))
 - **config:** 增加 vscode 配置 ([9ca59dd](https://github.com/224436504/lint-lf/commit/9ca59ddad43287e65e35dca38cc7ca9000a8ffdf))
 - **config:** 精简安装内容 ([9002d48](https://github.com/224436504/lint-lf/commit/9002d48f9607528d0f7265524fa24f5ce3690546))
+- **docs:** 整合抽离逻辑 交互式增加 lint 规则 ([79b83ce](https://github.com/224436504/lint-lf/commit/79b83cef7ed9a434f0f25b59e4752d6430b0d0c4))
 - 前期准备 ([605c19a](https://github.com/224436504/lint-lf/commit/605c19aad165ab19e83080d939544d25626bc1c6))
