@@ -51,5 +51,5 @@
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["yapi", "sccoms", "otms", "tblh", "dumi", "umijs", "umirc", "jsbarcode", "23456fafd"]
+  "cSpell.words": ["yapi", "sccoms", "otms", "tblh", "dumi", "umijs", "umirc", "jsbarcode"]
 }
