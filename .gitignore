@@ -1,6 +1,8 @@
 
 .*
 !.*ignore
+!.*config
+!.cz-config.js
 !.*rc
 !.*rc.js
 !.*rc.json
