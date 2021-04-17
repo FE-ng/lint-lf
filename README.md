@@ -1,7 +1,12 @@
 # lint-lf
 
-this is a cli for eslint & stylelint & commitlint;
-It's just a exercise here right now;  
+This is a cli for eslint & stylelint & commitlint;
+User can install the personal lint by the cli automatically with less code;  
+Any problem can be discussed on my GitHub;
+
+**Waring**:  
+Some of the lint files that your project already has will be overwritten by the cli right now. The next version will handle this problem;
+
 steps:
 
 1. npm install
@@ -9,7 +14,7 @@ steps:
    after input or select the config and then the cli will create some lint rules automatically;  
    let's enjoy 'less code' !
 
-if your npm version > v5.2, you can use this cli without install by npx;
+**if your npm version > v5.2, you can use this cli without install by npx;**
 
 ```npm
   npx lint config
@@ -24,3 +29,4 @@ if your npm version > v5.2, you can use this cli without install by npx;
 5. 抽离依赖包 额外发布 npm 包 ?
 6. npm --> pnpm ?
 7. 支持 js/ts vue/react 的选择切换;
+8. 支持 config 文件进行合并而不是暴力覆盖;
