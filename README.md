@@ -31,6 +31,7 @@ steps:
 7. 支持 js/ts vue/react 的选择切换;
 8. 支持 config 文件进行合并而不是暴力覆盖;
 9. 增加 package json 中的脚本入口
+10. 增加 npm 自动发布脚本
 
 ## comments
 
