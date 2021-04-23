@@ -19,7 +19,6 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    ...['./rules/base'].map(require.resolve),
     'airbnb',
     'airbnb/hooks',
     'plugin:react/recommended',

@@ -1,6 +1,6 @@
 {
   "name": "lflint",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "bin/index.js",
   "keywords": [
     "lint-cli",
@@ -20,7 +20,8 @@
   },
   "scripts": {
     "format": "prettier --write .",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "publish": "node ./lib/publish"
   },
   "author": {
     "name": "lf",
@@ -35,7 +36,8 @@
     "chalk": "^4.1.0",
     "commander": "^7.0.0",
     "cross-spawn": "^7.0.3",
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "ora": "^5.4.0"
   },
   "homepage": "https://github.com/224436504/lint-lf#readme",
   "devDependencies": {
