@@ -1,6 +1,6 @@
 {
   "name": "lflint",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "bin/index.js",
   "keywords": [
     "lint-cli",
