@@ -47,7 +47,7 @@ steps:
 | "bracketSpacing"     | true         | 在对象字面量声明所使用的的花括号后（{）和前（}）输出空格                  |
 | "arrowParens"        | "always"     | 为单行箭头函数的参数添加圆括号，参数个数为 1 时可以省略圆括号             |
 | "quoteProps"         | "as-needed", | object 中 key 尽量不使用引号                                              |
-| "useTabs"            | true         | 使用 tab（制表位）缩进而非空格                                            |
+| "useTabs"            | false        | 使用 tab（制表位）缩进而非空格                                            |
 | "parser"             | "babylon"    | 指定使用哪一种解析器, 默认会自动选择                                      |
 | "jsxBracketSameLine" | true         | 在多行 JSX 元素最后一行的末尾添加 > 而使 > 单独一行（不适用于自闭和元素） |
 | "rangeStart"         | 0            | 只格式化某个文件的一部分                                                  |

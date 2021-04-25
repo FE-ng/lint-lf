@@ -87,8 +87,7 @@
       "stylelint --config .stylelintrc.js"
     ],
     "*.{ts,tsx,js,json,html,yml,css,less,scss,md}": [
-      "prettier --write",
-      "git add --force"
+      "prettier --write"
     ]
   }
 }

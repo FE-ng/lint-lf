@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     // 基本配置
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "removeComments": false,
     "target": "ES5", // 编译成哪个版本的 es
     "module": "ESNext", // 指定生成哪个模块系统代码
     "lib": ["dom", "dom.iterable", "esnext"], // 编译过程中需要引入的库文件的列表
@@ -15,8 +18,10 @@
     "baseUrl": "./", // 根路径
     "paths": {
       // 路径映射，与 baseUrl 关联
-      "Components/*": ["src/components/*"],
-      "Utils/*": ["src/utils/*"]
+      "components/*": ["./src/components/*"],
+      "containers/*": ["./src/containers/*"],
+      "utils/*": ["./src/utils/*"],
+      "config/*": ["./src/config/*"]
     },
     // 实验性选项
     "experimentalDecorators": true, // 启用实验性的ES装饰器
@@ -29,4 +34,5 @@
     "declaration": true
   },
   "exclude": ["node_modules"]
+  // "include": ["./*.d.ts", "./src/**/*"]
 }
