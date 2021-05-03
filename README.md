@@ -22,16 +22,16 @@ steps:
 
 ## todo
 
-1. <del>逻辑分离</del>
+1. ~~逻辑分离~~
 2. js --> ts
 3. 完善 ignore 文件列表 完善基础配置文件 完善 eslintrc 规则
-4. <del>分离 all 依赖 使 eslint stylelint commitlint 可通过交互结果进行配置;</del>
+4. ~~分离 all 依赖 使 eslint stylelint commitlint 可通过交互结果进行配置;~~
 5. 抽离依赖包 额外发布 npm 包 ?
 6. npm --> pnpm ?
 7. 支持 js/ts vue/react 的选择切换;
 8. 支持 config 文件进行合并而不是暴力覆盖;
 9. 增加 package json 中的脚本入口
-10. 增加 npm 自动发布脚本
+10. ~~增加 npm 自动发布脚本~~
 
 ## comments
 
